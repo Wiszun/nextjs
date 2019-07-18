@@ -1,7 +1,5 @@
-const About = () => (
-  <div>
-    <p>About</p>
-  </div>
-);
+import withLayout from "../components/MyLayout";
 
-export default About;
+const Page = () => <p>This is the about page</p>;
+
+export default withLayout(Page);
