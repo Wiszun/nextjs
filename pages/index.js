@@ -14,9 +14,9 @@ const Blog = () => {
     <>
       <h1>My Blog</h1>
       <ul>
-        <PostLink postId="Hello Next.js" />
-        <PostLink postId="Learn Next.js is awesome" />
-        <PostLink postId="Deploy apps with Zeit" />
+        <PostLink postId="hello-nextjs" />
+        <PostLink postId="learn-nextjs" />
+        <PostLink postId="deploy-nextjs" />
       </ul>
     </>
   );
